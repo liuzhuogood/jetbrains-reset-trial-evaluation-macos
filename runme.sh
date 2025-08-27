@@ -70,12 +70,12 @@ echo "Force deleting JetBrains cached plist entries..."
 defaults delete com.jetbrains 2>/dev/null
 
 echo "Clearing JetBrains account data, logs, cache..."
-rm -rf ~/.config/JetBrains
-rm -rf ~/.local/share/JetBrains
-rm -rf ~/Library/Caches/JetBrains
-rm -rf ~/Library/Logs/JetBrains
-rm -rf ~/Library/Application\ Support/JetBrains
-rm -rf ~/Library/Preferences/JetBrains
+# rm -rf ~/.config/JetBrains
+# rm -rf ~/.local/share/JetBrains
+# rm -rf ~/Library/Caches/JetBrains   
+# rm -rf ~/Library/Logs/JetBrains
+# rm -rf ~/Library/Application\ Support/JetBrains
+# rm -rf ~/Library/Preferences/JetBrains
 
 echo "Removing JetBrains Toolbox remnants..."
 rm -rf ~/Library/Application\ Support/JetBrains/Toolbox
